@@ -13,7 +13,7 @@ fn main() {
         .version(env!("CARGO_PKG_VERSION"))
         .author("Able <abl3theabove@gmail.com>")
         .about("AbleScript interpreter")
-        .arg(
+         .arg(
             Arg::with_name("file")
                 .short("f")
                 .long("file")
